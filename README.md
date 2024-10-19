@@ -1,2 +1,3 @@
 # Azure-Data-Engineering-Project-using-Databricks
 ![Azure-Data-pipeline](https://github.com/ravidu-rupasinghe/Azure-Data-Engineering-Project-using-Databricks/blob/main/azure.png)
+This architecture represents a typical Azure-based modern data processing pipeline for e-commerce data. The raw data is ingested via Azure Data Factory and stored in Azure Data Lake. Using Databricks and Apache Spark, the data undergoes several transformations, following the Bronze-Silver-Gold medallion architecture in Delta Lake. Finally, the refined data is loaded into Azure Synapse Analytics for reporting, analysis, and decision-making. This setup is ideal for large-scale e-commerce datasets requiring real-time insights and business-level analytics.
